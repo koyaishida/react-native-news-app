@@ -30,6 +30,9 @@ const ClipStack = createStackNavigator({
   Article: {
     //ArticleはonPressの処理で使うkey
     screen: ArticleScreen,
+    navigationOptions:{
+      title: "実験",
+    }
   },
 })
 
